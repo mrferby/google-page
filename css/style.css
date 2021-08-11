@@ -80,6 +80,11 @@ header {
     margin-top: 2rem;
   }
 }
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .logo {
+    margin-top: 1.75rem;
+  }
+}
 .logo img {
   max-height: 100%;
   max-width: 100%;
