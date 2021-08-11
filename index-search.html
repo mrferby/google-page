@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Micro Google</title>
+</head>
+<body>
+    <div class="responsive-wrapper">
+        <div class="responsive-header">
+            <div class="max-container">
+                <header>
+                    <div class="top-menu">
+                        <div class="left-block-menu">
+                            <div class="menu-pd">
+                                <a href="https://mail.google.com/mail/&amp;ogbl" target="_top">Почта</a>
+                            </div>
+                            <div class="menu-pd">
+                                <a href="https://www.google.by/imghp?hl=ru&amp;ogbl" target="_top">Картинки</a>
+                            </div>
+                        </div>
+                        <div class="right-block-menu">
+                            <div>
+                                <a class="dots" aria-label="Приложения Google" target="_blank" href="https://www.google.by/intl/ru/about/products" aria-expanded="false" role="button" tabindex="0"><svg class="gb_Ve" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg></a>
+                            </div>
+                            <div>
+                                <a class="login" href="https://accounts.google.com/ServiceLogin?hl=ru&amp;passive=true&amp;continue=https://www.google.com/webhp%3Fhl%3Dru%26sa%3DX%26ved%3D0ahUKEwiSrLDYuaLyAhXDlIsKHcgMCQwQPAgI&amp;ec=GAZAmgQ" target="_top">Войти</a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="responsive-main">
+            <div class="max-container">
+                <main>
+                    <form name="search-form" action="javascript:submitForm();" method="POST">
+                        <div class="logo"><img class="lnXdpd" alt="Google" height="92" src="img/logo.png" width="272" data-atf="1" data-frt="0"></div>
+                        <div class="search-form">
+                            
+                            <label class="form-label" for="search_field">
+                                <input class="form-input" type="text"  placeholder="" id="search_field" name="search_field" value="" maxlength="256" />
+                                <div class="svg-search">
+                                    <span>
+                                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#a2a2a2">
+                                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="main-buttons">
+                            <center> 
+                                <div>
+                                    <button type="submit" id="search">Найти</button>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="under-main-buttons">
+                            <center> 
+                                <div>
+                                    <a href="javascript:superSum(prompt('Введите любое число', ''), prompt('Введите любое число', ''));" id="search" style="text-decoration: underline;">6. Найти сумму двух чисел</a>
+                                </div>
+                                <div>
+                                    <a href="javascript:getMax((prompt('Введите любое число через запятую:', '')).split(',').map(Number));" id="search" style="text-decoration: underline;">9. getMax from arr</a>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="under-main-buttons">Сервисы Google доступны на разных языках:  <a href="https://www.google.com/setprefs?sig=0_gej7fHglgND1RGqLWzC0ckRn9Yc%3D&amp;hl=be&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwis8LbbuaLyAhXRnVwKHcecAIUQ2ZgBCA4">Беларуская</a></div>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </div>
+    <div class="responsive-footer">
+        <div class="max-container">
+            <footer>
+                <div class="country">Беларусь</div>
+                <div class="footer-block-main">
+                    <div class="footer-block">
+                        <a href="https://about.google/?utm_source=google-BY&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1">Всё о Google</a>
+                        <a href="https://www.google.ru/intl/ru_by/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Реклама</a>
+                        <a href="https://www.google.ru/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1">Для бизнеса</a>
+                        <a href="https://google.com/search/howsearchworks/?fg=1">Как работает Google Поиск </a>
+                    </div>
+                    <div class="footer-block">
+                        <a href="https://policies.google.com/privacy?hl=ru-BY&amp;fg=1">Конфиденциальность</a>
+                        <a href="https://policies.google.com/terms?hl=ru-BY&amp;fg=1">Условия</a>
+                        <a href="https://www.google.сщь/preferences?hl=ru-BY&client=safari&fg=1">Настройки</a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
