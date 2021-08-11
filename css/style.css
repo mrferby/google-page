@@ -70,6 +70,16 @@ header {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 375px) {
+  .logo {
+    margin-top: 8.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .logo {
+    margin-top: 2rem;
+  }
+}
 .logo img {
   max-height: 100%;
   max-width: 100%;
