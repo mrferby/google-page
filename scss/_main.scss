@@ -13,6 +13,9 @@
     @media screen and (max-width: 375px){
         margin-top: 2rem;
     }
+    @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+        margin-top: 1.75rem;  
+    }
     img {
         max-height: 100%;
         max-width: 100%;
